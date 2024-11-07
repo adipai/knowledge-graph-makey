@@ -1,2 +1,2 @@
 # knowledge-graph-makey
-LLM vs Graph Neural Network (GNN) for knowledge graph creation
+Codebase for exploring and analysis of knowledge graph creation by an LLM vs GNN
