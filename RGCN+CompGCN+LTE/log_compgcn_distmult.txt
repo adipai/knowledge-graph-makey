@@ -1,0 +1,454 @@
+/home/rsingha4/.local/lib/python3.10/site-packages/dgl/heterograph.py:92: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning(
+Extracting file to ../datasets/FB15k-237
+# entities: 14541
+# relations: 237
+# edges: 272115
+{'batch_size': 256,
+ 'bias': False,
+ 'conve_hid_drop': 0.3,
+ 'dataset': 'FB15k-237',
+ 'embed_dim': 200,
+ 'encoder': 'compgcn',
+ 'feat_drop': 0.2,
+ 'gamma': 9.0,
+ 'gcn_dim': 100,
+ 'gcn_drop': 0.1,
+ 'gpu': 0,
+ 'hid_drop': 0.3,
+ 'init_dim': 100,
+ 'input_drop': 0.2,
+ 'k_h': 10,
+ 'k_w': 20,
+ 'ker_sz': 7,
+ 'l2': 0.0,
+ 'lbl_smooth': 0.1,
+ 'lr': 0.001,
+ 'max_epochs': 200,
+ 'n_layer': 2,
+ 'name': 'compgcn-distmult-multrepro',
+ 'nobn': False,
+ 'noltr': False,
+ 'num_bases': -1,
+ 'num_filt': 200,
+ 'num_workers': 8,
+ 'opn': 'mult',
+ 'r_ops': '',
+ 'rat': False,
+ 'restore': False,
+ 'score_func': 'distmult',
+ 'seed': 12345,
+ 'ss': -1,
+ 'wni': False,
+ 'wsi': False,
+ 'x_ops': ''}
+2024-12-01 21:10:29,383 - __main__ - INFO - [Epoch 0]: Training Loss: 0.63092, Valid MRR: 0.00046, Best Valid MRR: 0.00046, Cost: 29.25s
+[Epoch 0]: Training Loss: 0.63092, Valid MRR: 0.00046, Best Valid MRR: 0.00046, Cost: 29.25s
+2024-12-01 21:10:58,443 - __main__ - INFO - [Epoch 1]: Training Loss: 0.14939, Valid MRR: 0.01533, Best Valid MRR: 0.01533, Cost: 29.06s
+[Epoch 1]: Training Loss: 0.14939, Valid MRR: 0.01533, Best Valid MRR: 0.01533, Cost: 29.06s
+2024-12-01 21:11:27,294 - __main__ - INFO - [Epoch 2]: Training Loss: 0.0039772, Valid MRR: 0.02842, Best Valid MRR: 0.02842, Cost: 28.85s
+[Epoch 2]: Training Loss: 0.0039772, Valid MRR: 0.02842, Best Valid MRR: 0.02842, Cost: 28.85s
+2024-12-01 21:11:56,098 - __main__ - INFO - [Epoch 3]: Training Loss: 0.0025781, Valid MRR: 0.02716, Best Valid MRR: 0.02842, Cost: 28.80s
+[Epoch 3]: Training Loss: 0.0025781, Valid MRR: 0.02716, Best Valid MRR: 0.02842, Cost: 28.80s
+2024-12-01 21:12:25,074 - __main__ - INFO - [Epoch 4]: Training Loss: 0.0023813, Valid MRR: 0.03111, Best Valid MRR: 0.03111, Cost: 28.98s
+[Epoch 4]: Training Loss: 0.0023813, Valid MRR: 0.03111, Best Valid MRR: 0.03111, Cost: 28.98s
+2024-12-01 21:12:54,103 - __main__ - INFO - [Epoch 5]: Training Loss: 0.0022945, Valid MRR: 0.03476, Best Valid MRR: 0.03476, Cost: 29.03s
+[Epoch 5]: Training Loss: 0.0022945, Valid MRR: 0.03476, Best Valid MRR: 0.03476, Cost: 29.03s
+2024-12-01 21:13:23,029 - __main__ - INFO - [Epoch 6]: Training Loss: 0.0022222, Valid MRR: 0.0419, Best Valid MRR: 0.0419, Cost: 28.93s
+[Epoch 6]: Training Loss: 0.0022222, Valid MRR: 0.0419, Best Valid MRR: 0.0419, Cost: 28.93s
+2024-12-01 21:13:51,927 - __main__ - INFO - [Epoch 7]: Training Loss: 0.0021693, Valid MRR: 0.03328, Best Valid MRR: 0.0419, Cost: 28.90s
+[Epoch 7]: Training Loss: 0.0021693, Valid MRR: 0.03328, Best Valid MRR: 0.0419, Cost: 28.90s
+2024-12-01 21:14:20,846 - __main__ - INFO - [Epoch 8]: Training Loss: 0.0021165, Valid MRR: 0.04745, Best Valid MRR: 0.04745, Cost: 28.92s
+[Epoch 8]: Training Loss: 0.0021165, Valid MRR: 0.04745, Best Valid MRR: 0.04745, Cost: 28.92s
+2024-12-01 21:14:49,779 - __main__ - INFO - [Epoch 9]: Training Loss: 0.0020867, Valid MRR: 0.0433, Best Valid MRR: 0.04745, Cost: 28.93s
+[Epoch 9]: Training Loss: 0.0020867, Valid MRR: 0.0433, Best Valid MRR: 0.04745, Cost: 28.93s
+2024-12-01 21:15:18,859 - __main__ - INFO - [Epoch 10]: Training Loss: 0.002049, Valid MRR: 0.05187, Best Valid MRR: 0.05187, Cost: 29.08s
+[Epoch 10]: Training Loss: 0.002049, Valid MRR: 0.05187, Best Valid MRR: 0.05187, Cost: 29.08s
+2024-12-01 21:15:47,886 - __main__ - INFO - [Epoch 11]: Training Loss: 0.0020224, Valid MRR: 0.05899, Best Valid MRR: 0.05899, Cost: 29.03s
+[Epoch 11]: Training Loss: 0.0020224, Valid MRR: 0.05899, Best Valid MRR: 0.05899, Cost: 29.03s
+2024-12-01 21:16:16,917 - __main__ - INFO - [Epoch 12]: Training Loss: 0.0019931, Valid MRR: 0.06391, Best Valid MRR: 0.06391, Cost: 29.03s
+[Epoch 12]: Training Loss: 0.0019931, Valid MRR: 0.06391, Best Valid MRR: 0.06391, Cost: 29.03s
+2024-12-01 21:16:45,955 - __main__ - INFO - [Epoch 13]: Training Loss: 0.0019605, Valid MRR: 0.06246, Best Valid MRR: 0.06391, Cost: 29.04s
+[Epoch 13]: Training Loss: 0.0019605, Valid MRR: 0.06246, Best Valid MRR: 0.06391, Cost: 29.04s
+2024-12-01 21:17:15,050 - __main__ - INFO - [Epoch 14]: Training Loss: 0.0019379, Valid MRR: 0.06502, Best Valid MRR: 0.06502, Cost: 29.09s
+[Epoch 14]: Training Loss: 0.0019379, Valid MRR: 0.06502, Best Valid MRR: 0.06502, Cost: 29.09s
+2024-12-01 21:17:44,055 - __main__ - INFO - [Epoch 15]: Training Loss: 0.0019065, Valid MRR: 0.08532, Best Valid MRR: 0.08532, Cost: 29.00s
+[Epoch 15]: Training Loss: 0.0019065, Valid MRR: 0.08532, Best Valid MRR: 0.08532, Cost: 29.00s
+2024-12-01 21:18:13,134 - __main__ - INFO - [Epoch 16]: Training Loss: 0.0018973, Valid MRR: 0.08702, Best Valid MRR: 0.08702, Cost: 29.08s
+[Epoch 16]: Training Loss: 0.0018973, Valid MRR: 0.08702, Best Valid MRR: 0.08702, Cost: 29.08s
+2024-12-01 21:18:42,114 - __main__ - INFO - [Epoch 17]: Training Loss: 0.00186, Valid MRR: 0.08777, Best Valid MRR: 0.08777, Cost: 28.98s
+[Epoch 17]: Training Loss: 0.00186, Valid MRR: 0.08777, Best Valid MRR: 0.08777, Cost: 28.98s
+2024-12-01 21:19:11,199 - __main__ - INFO - [Epoch 18]: Training Loss: 0.0018443, Valid MRR: 0.09897, Best Valid MRR: 0.09897, Cost: 29.08s
+[Epoch 18]: Training Loss: 0.0018443, Valid MRR: 0.09897, Best Valid MRR: 0.09897, Cost: 29.08s
+2024-12-01 21:19:40,289 - __main__ - INFO - [Epoch 19]: Training Loss: 0.0018115, Valid MRR: 0.11472, Best Valid MRR: 0.11472, Cost: 29.09s
+[Epoch 19]: Training Loss: 0.0018115, Valid MRR: 0.11472, Best Valid MRR: 0.11472, Cost: 29.09s
+2024-12-01 21:20:09,200 - __main__ - INFO - [Epoch 20]: Training Loss: 0.0017997, Valid MRR: 0.10238, Best Valid MRR: 0.11472, Cost: 28.91s
+[Epoch 20]: Training Loss: 0.0017997, Valid MRR: 0.10238, Best Valid MRR: 0.11472, Cost: 28.91s
+2024-12-01 21:20:38,187 - __main__ - INFO - [Epoch 21]: Training Loss: 0.0017973, Valid MRR: 0.12012, Best Valid MRR: 0.12012, Cost: 28.99s
+[Epoch 21]: Training Loss: 0.0017973, Valid MRR: 0.12012, Best Valid MRR: 0.12012, Cost: 28.99s
+2024-12-01 21:21:07,202 - __main__ - INFO - [Epoch 22]: Training Loss: 0.0017708, Valid MRR: 0.12911, Best Valid MRR: 0.12911, Cost: 29.01s
+[Epoch 22]: Training Loss: 0.0017708, Valid MRR: 0.12911, Best Valid MRR: 0.12911, Cost: 29.01s
+2024-12-01 21:21:36,159 - __main__ - INFO - [Epoch 23]: Training Loss: 0.0017616, Valid MRR: 0.12454, Best Valid MRR: 0.12911, Cost: 28.96s
+[Epoch 23]: Training Loss: 0.0017616, Valid MRR: 0.12454, Best Valid MRR: 0.12911, Cost: 28.96s
+2024-12-01 21:22:04,978 - __main__ - INFO - [Epoch 24]: Training Loss: 0.0017387, Valid MRR: 0.12919, Best Valid MRR: 0.12919, Cost: 28.82s
+[Epoch 24]: Training Loss: 0.0017387, Valid MRR: 0.12919, Best Valid MRR: 0.12919, Cost: 28.82s
+2024-12-01 21:22:34,008 - __main__ - INFO - [Epoch 25]: Training Loss: 0.0017323, Valid MRR: 0.13734, Best Valid MRR: 0.13734, Cost: 29.03s
+[Epoch 25]: Training Loss: 0.0017323, Valid MRR: 0.13734, Best Valid MRR: 0.13734, Cost: 29.03s
+2024-12-01 21:23:03,013 - __main__ - INFO - [Epoch 26]: Training Loss: 0.0017222, Valid MRR: 0.14601, Best Valid MRR: 0.14601, Cost: 29.00s
+[Epoch 26]: Training Loss: 0.0017222, Valid MRR: 0.14601, Best Valid MRR: 0.14601, Cost: 29.00s
+2024-12-01 21:23:32,013 - __main__ - INFO - [Epoch 27]: Training Loss: 0.0017103, Valid MRR: 0.1517, Best Valid MRR: 0.1517, Cost: 29.00s
+[Epoch 27]: Training Loss: 0.0017103, Valid MRR: 0.1517, Best Valid MRR: 0.1517, Cost: 29.00s
+2024-12-01 21:24:01,053 - __main__ - INFO - [Epoch 28]: Training Loss: 0.0017011, Valid MRR: 0.15315, Best Valid MRR: 0.15315, Cost: 29.04s
+[Epoch 28]: Training Loss: 0.0017011, Valid MRR: 0.15315, Best Valid MRR: 0.15315, Cost: 29.04s
+2024-12-01 21:24:30,192 - __main__ - INFO - [Epoch 29]: Training Loss: 0.0017049, Valid MRR: 0.16013, Best Valid MRR: 0.16013, Cost: 29.14s
+[Epoch 29]: Training Loss: 0.0017049, Valid MRR: 0.16013, Best Valid MRR: 0.16013, Cost: 29.14s
+2024-12-01 21:24:59,141 - __main__ - INFO - [Epoch 30]: Training Loss: 0.0016785, Valid MRR: 0.15865, Best Valid MRR: 0.16013, Cost: 28.95s
+[Epoch 30]: Training Loss: 0.0016785, Valid MRR: 0.15865, Best Valid MRR: 0.16013, Cost: 28.95s
+2024-12-01 21:25:28,016 - __main__ - INFO - [Epoch 31]: Training Loss: 0.001672, Valid MRR: 0.16554, Best Valid MRR: 0.16554, Cost: 28.87s
+[Epoch 31]: Training Loss: 0.001672, Valid MRR: 0.16554, Best Valid MRR: 0.16554, Cost: 28.87s
+2024-12-01 21:25:57,081 - __main__ - INFO - [Epoch 32]: Training Loss: 0.0016494, Valid MRR: 0.17074, Best Valid MRR: 0.17074, Cost: 29.07s
+[Epoch 32]: Training Loss: 0.0016494, Valid MRR: 0.17074, Best Valid MRR: 0.17074, Cost: 29.07s
+2024-12-01 21:26:26,158 - __main__ - INFO - [Epoch 33]: Training Loss: 0.0016447, Valid MRR: 0.17337, Best Valid MRR: 0.17337, Cost: 29.08s
+[Epoch 33]: Training Loss: 0.0016447, Valid MRR: 0.17337, Best Valid MRR: 0.17337, Cost: 29.08s
+2024-12-01 21:26:55,186 - __main__ - INFO - [Epoch 34]: Training Loss: 0.0016389, Valid MRR: 0.17382, Best Valid MRR: 0.17382, Cost: 29.03s
+[Epoch 34]: Training Loss: 0.0016389, Valid MRR: 0.17382, Best Valid MRR: 0.17382, Cost: 29.03s
+2024-12-01 21:27:24,092 - __main__ - INFO - [Epoch 35]: Training Loss: 0.0016405, Valid MRR: 0.17752, Best Valid MRR: 0.17752, Cost: 28.91s
+[Epoch 35]: Training Loss: 0.0016405, Valid MRR: 0.17752, Best Valid MRR: 0.17752, Cost: 28.91s
+2024-12-01 21:27:53,132 - __main__ - INFO - [Epoch 36]: Training Loss: 0.0016417, Valid MRR: 0.17928, Best Valid MRR: 0.17928, Cost: 29.04s
+[Epoch 36]: Training Loss: 0.0016417, Valid MRR: 0.17928, Best Valid MRR: 0.17928, Cost: 29.04s
+2024-12-01 21:28:21,968 - __main__ - INFO - [Epoch 37]: Training Loss: 0.0016169, Valid MRR: 0.17885, Best Valid MRR: 0.17928, Cost: 28.84s
+[Epoch 37]: Training Loss: 0.0016169, Valid MRR: 0.17885, Best Valid MRR: 0.17928, Cost: 28.84s
+2024-12-01 21:28:50,888 - __main__ - INFO - [Epoch 38]: Training Loss: 0.0016209, Valid MRR: 0.18159, Best Valid MRR: 0.18159, Cost: 28.92s
+[Epoch 38]: Training Loss: 0.0016209, Valid MRR: 0.18159, Best Valid MRR: 0.18159, Cost: 28.92s
+2024-12-01 21:29:19,761 - __main__ - INFO - [Epoch 39]: Training Loss: 0.0016139, Valid MRR: 0.17958, Best Valid MRR: 0.18159, Cost: 28.87s
+[Epoch 39]: Training Loss: 0.0016139, Valid MRR: 0.17958, Best Valid MRR: 0.18159, Cost: 28.87s
+2024-12-01 21:29:48,624 - __main__ - INFO - [Epoch 40]: Training Loss: 0.0016193, Valid MRR: 0.18018, Best Valid MRR: 0.18159, Cost: 28.86s
+[Epoch 40]: Training Loss: 0.0016193, Valid MRR: 0.18018, Best Valid MRR: 0.18159, Cost: 28.86s
+2024-12-01 21:30:17,512 - __main__ - INFO - [Epoch 41]: Training Loss: 0.0016052, Valid MRR: 0.18835, Best Valid MRR: 0.18835, Cost: 28.89s
+[Epoch 41]: Training Loss: 0.0016052, Valid MRR: 0.18835, Best Valid MRR: 0.18835, Cost: 28.89s
+2024-12-01 21:30:46,451 - __main__ - INFO - [Epoch 42]: Training Loss: 0.0015947, Valid MRR: 0.18872, Best Valid MRR: 0.18872, Cost: 28.94s
+[Epoch 42]: Training Loss: 0.0015947, Valid MRR: 0.18872, Best Valid MRR: 0.18872, Cost: 28.94s
+2024-12-01 21:31:15,348 - __main__ - INFO - [Epoch 43]: Training Loss: 0.0015826, Valid MRR: 0.18813, Best Valid MRR: 0.18872, Cost: 28.90s
+[Epoch 43]: Training Loss: 0.0015826, Valid MRR: 0.18813, Best Valid MRR: 0.18872, Cost: 28.90s
+2024-12-01 21:31:44,331 - __main__ - INFO - [Epoch 44]: Training Loss: 0.0015818, Valid MRR: 0.18789, Best Valid MRR: 0.18872, Cost: 28.98s
+[Epoch 44]: Training Loss: 0.0015818, Valid MRR: 0.18789, Best Valid MRR: 0.18872, Cost: 28.98s
+2024-12-01 21:32:13,379 - __main__ - INFO - [Epoch 45]: Training Loss: 0.0015738, Valid MRR: 0.19305, Best Valid MRR: 0.19305, Cost: 29.05s
+[Epoch 45]: Training Loss: 0.0015738, Valid MRR: 0.19305, Best Valid MRR: 0.19305, Cost: 29.05s
+2024-12-01 21:32:42,282 - __main__ - INFO - [Epoch 46]: Training Loss: 0.001595, Valid MRR: 0.18373, Best Valid MRR: 0.19305, Cost: 28.90s
+[Epoch 46]: Training Loss: 0.001595, Valid MRR: 0.18373, Best Valid MRR: 0.19305, Cost: 28.90s
+2024-12-01 21:33:11,225 - __main__ - INFO - [Epoch 47]: Training Loss: 0.0016082, Valid MRR: 0.19416, Best Valid MRR: 0.19416, Cost: 28.94s
+[Epoch 47]: Training Loss: 0.0016082, Valid MRR: 0.19416, Best Valid MRR: 0.19416, Cost: 28.94s
+2024-12-01 21:33:40,136 - __main__ - INFO - [Epoch 48]: Training Loss: 0.0015645, Valid MRR: 0.19167, Best Valid MRR: 0.19416, Cost: 28.91s
+[Epoch 48]: Training Loss: 0.0015645, Valid MRR: 0.19167, Best Valid MRR: 0.19416, Cost: 28.91s
+2024-12-01 21:34:09,218 - __main__ - INFO - [Epoch 49]: Training Loss: 0.0015637, Valid MRR: 0.19479, Best Valid MRR: 0.19479, Cost: 29.08s
+[Epoch 49]: Training Loss: 0.0015637, Valid MRR: 0.19479, Best Valid MRR: 0.19479, Cost: 29.08s
+2024-12-01 21:34:38,062 - __main__ - INFO - [Epoch 50]: Training Loss: 0.0015621, Valid MRR: 0.1948, Best Valid MRR: 0.1948, Cost: 28.84s
+[Epoch 50]: Training Loss: 0.0015621, Valid MRR: 0.1948, Best Valid MRR: 0.1948, Cost: 28.84s
+2024-12-01 21:35:06,955 - __main__ - INFO - [Epoch 51]: Training Loss: 0.0015553, Valid MRR: 0.19331, Best Valid MRR: 0.1948, Cost: 28.89s
+[Epoch 51]: Training Loss: 0.0015553, Valid MRR: 0.19331, Best Valid MRR: 0.1948, Cost: 28.89s
+2024-12-01 21:35:35,909 - __main__ - INFO - [Epoch 52]: Training Loss: 0.0015625, Valid MRR: 0.19827, Best Valid MRR: 0.19827, Cost: 28.95s
+[Epoch 52]: Training Loss: 0.0015625, Valid MRR: 0.19827, Best Valid MRR: 0.19827, Cost: 28.95s
+2024-12-01 21:36:04,881 - __main__ - INFO - [Epoch 53]: Training Loss: 0.0015588, Valid MRR: 0.19846, Best Valid MRR: 0.19846, Cost: 28.97s
+[Epoch 53]: Training Loss: 0.0015588, Valid MRR: 0.19846, Best Valid MRR: 0.19846, Cost: 28.97s
+2024-12-01 21:36:33,695 - __main__ - INFO - [Epoch 54]: Training Loss: 0.0015543, Valid MRR: 0.19892, Best Valid MRR: 0.19892, Cost: 28.81s
+[Epoch 54]: Training Loss: 0.0015543, Valid MRR: 0.19892, Best Valid MRR: 0.19892, Cost: 28.81s
+2024-12-01 21:37:02,602 - __main__ - INFO - [Epoch 55]: Training Loss: 0.001541, Valid MRR: 0.20113, Best Valid MRR: 0.20113, Cost: 28.91s
+[Epoch 55]: Training Loss: 0.001541, Valid MRR: 0.20113, Best Valid MRR: 0.20113, Cost: 28.91s
+2024-12-01 21:37:31,469 - __main__ - INFO - [Epoch 56]: Training Loss: 0.0015386, Valid MRR: 0.19919, Best Valid MRR: 0.20113, Cost: 28.87s
+[Epoch 56]: Training Loss: 0.0015386, Valid MRR: 0.19919, Best Valid MRR: 0.20113, Cost: 28.87s
+2024-12-01 21:38:00,402 - __main__ - INFO - [Epoch 57]: Training Loss: 0.0015315, Valid MRR: 0.20039, Best Valid MRR: 0.20113, Cost: 28.93s
+[Epoch 57]: Training Loss: 0.0015315, Valid MRR: 0.20039, Best Valid MRR: 0.20113, Cost: 28.93s
+2024-12-01 21:38:29,150 - __main__ - INFO - [Epoch 58]: Training Loss: 0.0015524, Valid MRR: 0.20045, Best Valid MRR: 0.20113, Cost: 28.75s
+[Epoch 58]: Training Loss: 0.0015524, Valid MRR: 0.20045, Best Valid MRR: 0.20113, Cost: 28.75s
+2024-12-01 21:38:58,104 - __main__ - INFO - [Epoch 59]: Training Loss: 0.0015364, Valid MRR: 0.20018, Best Valid MRR: 0.20113, Cost: 28.95s
+[Epoch 59]: Training Loss: 0.0015364, Valid MRR: 0.20018, Best Valid MRR: 0.20113, Cost: 28.95s
+2024-12-01 21:39:27,023 - __main__ - INFO - [Epoch 60]: Training Loss: 0.0015503, Valid MRR: 0.19856, Best Valid MRR: 0.20113, Cost: 28.92s
+[Epoch 60]: Training Loss: 0.0015503, Valid MRR: 0.19856, Best Valid MRR: 0.20113, Cost: 28.92s
+2024-12-01 21:39:55,876 - __main__ - INFO - [Epoch 61]: Training Loss: 0.0015229, Valid MRR: 0.19949, Best Valid MRR: 0.20113, Cost: 28.85s
+[Epoch 61]: Training Loss: 0.0015229, Valid MRR: 0.19949, Best Valid MRR: 0.20113, Cost: 28.85s
+2024-12-01 21:40:24,840 - __main__ - INFO - [Epoch 62]: Training Loss: 0.0015291, Valid MRR: 0.20215, Best Valid MRR: 0.20215, Cost: 28.96s
+[Epoch 62]: Training Loss: 0.0015291, Valid MRR: 0.20215, Best Valid MRR: 0.20215, Cost: 28.96s
+2024-12-01 21:40:53,817 - __main__ - INFO - [Epoch 63]: Training Loss: 0.001517, Valid MRR: 0.20366, Best Valid MRR: 0.20366, Cost: 28.98s
+[Epoch 63]: Training Loss: 0.001517, Valid MRR: 0.20366, Best Valid MRR: 0.20366, Cost: 28.98s
+2024-12-01 21:41:22,665 - __main__ - INFO - [Epoch 64]: Training Loss: 0.0015166, Valid MRR: 0.20216, Best Valid MRR: 0.20366, Cost: 28.85s
+[Epoch 64]: Training Loss: 0.0015166, Valid MRR: 0.20216, Best Valid MRR: 0.20366, Cost: 28.85s
+2024-12-01 21:41:51,559 - __main__ - INFO - [Epoch 65]: Training Loss: 0.0015119, Valid MRR: 0.20594, Best Valid MRR: 0.20594, Cost: 28.89s
+[Epoch 65]: Training Loss: 0.0015119, Valid MRR: 0.20594, Best Valid MRR: 0.20594, Cost: 28.89s
+2024-12-01 21:42:20,409 - __main__ - INFO - [Epoch 66]: Training Loss: 0.0015168, Valid MRR: 0.20252, Best Valid MRR: 0.20594, Cost: 28.85s
+[Epoch 66]: Training Loss: 0.0015168, Valid MRR: 0.20252, Best Valid MRR: 0.20594, Cost: 28.85s
+2024-12-01 21:42:49,184 - __main__ - INFO - [Epoch 67]: Training Loss: 0.0015145, Valid MRR: 0.20169, Best Valid MRR: 0.20594, Cost: 28.77s
+[Epoch 67]: Training Loss: 0.0015145, Valid MRR: 0.20169, Best Valid MRR: 0.20594, Cost: 28.77s
+2024-12-01 21:43:18,173 - __main__ - INFO - [Epoch 68]: Training Loss: 0.0015065, Valid MRR: 0.2044, Best Valid MRR: 0.20594, Cost: 28.99s
+[Epoch 68]: Training Loss: 0.0015065, Valid MRR: 0.2044, Best Valid MRR: 0.20594, Cost: 28.99s
+2024-12-01 21:43:47,388 - __main__ - INFO - [Epoch 69]: Training Loss: 0.0015249, Valid MRR: 0.20442, Best Valid MRR: 0.20594, Cost: 29.22s
+[Epoch 69]: Training Loss: 0.0015249, Valid MRR: 0.20442, Best Valid MRR: 0.20594, Cost: 29.21s
+2024-12-01 21:44:16,197 - __main__ - INFO - [Epoch 70]: Training Loss: 0.0015186, Valid MRR: 0.20528, Best Valid MRR: 0.20594, Cost: 28.81s
+[Epoch 70]: Training Loss: 0.0015186, Valid MRR: 0.20528, Best Valid MRR: 0.20594, Cost: 28.81s
+2024-12-01 21:44:44,989 - __main__ - INFO - [Epoch 71]: Training Loss: 0.0015121, Valid MRR: 0.20358, Best Valid MRR: 0.20594, Cost: 28.79s
+[Epoch 71]: Training Loss: 0.0015121, Valid MRR: 0.20358, Best Valid MRR: 0.20594, Cost: 28.79s
+2024-12-01 21:45:13,952 - __main__ - INFO - [Epoch 72]: Training Loss: 0.0015129, Valid MRR: 0.20554, Best Valid MRR: 0.20594, Cost: 28.96s
+[Epoch 72]: Training Loss: 0.0015129, Valid MRR: 0.20554, Best Valid MRR: 0.20594, Cost: 28.96s
+2024-12-01 21:45:42,807 - __main__ - INFO - [Epoch 73]: Training Loss: 0.001506, Valid MRR: 0.20414, Best Valid MRR: 0.20594, Cost: 28.85s
+[Epoch 73]: Training Loss: 0.001506, Valid MRR: 0.20414, Best Valid MRR: 0.20594, Cost: 28.85s
+2024-12-01 21:46:11,509 - __main__ - INFO - [Epoch 74]: Training Loss: 0.0015121, Valid MRR: 0.2051, Best Valid MRR: 0.20594, Cost: 28.70s
+[Epoch 74]: Training Loss: 0.0015121, Valid MRR: 0.2051, Best Valid MRR: 0.20594, Cost: 28.70s
+2024-12-01 21:46:40,339 - __main__ - INFO - [Epoch 75]: Training Loss: 0.0015059, Valid MRR: 0.20505, Best Valid MRR: 0.20594, Cost: 28.83s
+[Epoch 75]: Training Loss: 0.0015059, Valid MRR: 0.20505, Best Valid MRR: 0.20594, Cost: 28.83s
+2024-12-01 21:47:09,111 - __main__ - INFO - [Epoch 76]: Training Loss: 0.0015013, Valid MRR: 0.20497, Best Valid MRR: 0.20594, Cost: 28.77s
+[Epoch 76]: Training Loss: 0.0015013, Valid MRR: 0.20497, Best Valid MRR: 0.20594, Cost: 28.77s
+2024-12-01 21:47:37,943 - __main__ - INFO - [Epoch 77]: Training Loss: 0.0015024, Valid MRR: 0.2058, Best Valid MRR: 0.20594, Cost: 28.83s
+[Epoch 77]: Training Loss: 0.0015024, Valid MRR: 0.2058, Best Valid MRR: 0.20594, Cost: 28.83s
+2024-12-01 21:48:06,762 - __main__ - INFO - [Epoch 78]: Training Loss: 0.0014985, Valid MRR: 0.20575, Best Valid MRR: 0.20594, Cost: 28.82s
+[Epoch 78]: Training Loss: 0.0014985, Valid MRR: 0.20575, Best Valid MRR: 0.20594, Cost: 28.82s
+2024-12-01 21:48:35,701 - __main__ - INFO - [Epoch 79]: Training Loss: 0.001497, Valid MRR: 0.20643, Best Valid MRR: 0.20643, Cost: 28.94s
+[Epoch 79]: Training Loss: 0.001497, Valid MRR: 0.20643, Best Valid MRR: 0.20643, Cost: 28.94s
+2024-12-01 21:49:04,753 - __main__ - INFO - [Epoch 80]: Training Loss: 0.0015009, Valid MRR: 0.20484, Best Valid MRR: 0.20643, Cost: 29.05s
+[Epoch 80]: Training Loss: 0.0015009, Valid MRR: 0.20484, Best Valid MRR: 0.20643, Cost: 29.05s
+2024-12-01 21:49:33,562 - __main__ - INFO - [Epoch 81]: Training Loss: 0.0014889, Valid MRR: 0.20525, Best Valid MRR: 0.20643, Cost: 28.81s
+[Epoch 81]: Training Loss: 0.0014889, Valid MRR: 0.20525, Best Valid MRR: 0.20643, Cost: 28.81s
+2024-12-01 21:50:02,446 - __main__ - INFO - [Epoch 82]: Training Loss: 0.001494, Valid MRR: 0.20469, Best Valid MRR: 0.20643, Cost: 28.88s
+[Epoch 82]: Training Loss: 0.001494, Valid MRR: 0.20469, Best Valid MRR: 0.20643, Cost: 28.88s
+2024-12-01 21:50:31,228 - __main__ - INFO - [Epoch 83]: Training Loss: 0.0014999, Valid MRR: 0.20601, Best Valid MRR: 0.20643, Cost: 28.78s
+[Epoch 83]: Training Loss: 0.0014999, Valid MRR: 0.20601, Best Valid MRR: 0.20643, Cost: 28.78s
+2024-12-01 21:51:00,098 - __main__ - INFO - [Epoch 84]: Training Loss: 0.0014887, Valid MRR: 0.20642, Best Valid MRR: 0.20643, Cost: 28.87s
+[Epoch 84]: Training Loss: 0.0014887, Valid MRR: 0.20642, Best Valid MRR: 0.20643, Cost: 28.87s
+2024-12-01 21:51:29,159 - __main__ - INFO - [Epoch 85]: Training Loss: 0.0014829, Valid MRR: 0.20682, Best Valid MRR: 0.20682, Cost: 29.06s
+[Epoch 85]: Training Loss: 0.0014829, Valid MRR: 0.20682, Best Valid MRR: 0.20682, Cost: 29.06s
+2024-12-01 21:51:57,989 - __main__ - INFO - [Epoch 86]: Training Loss: 0.0014817, Valid MRR: 0.2067, Best Valid MRR: 0.20682, Cost: 28.83s
+[Epoch 86]: Training Loss: 0.0014817, Valid MRR: 0.2067, Best Valid MRR: 0.20682, Cost: 28.83s
+2024-12-01 21:52:26,827 - __main__ - INFO - [Epoch 87]: Training Loss: 0.0015026, Valid MRR: 0.20483, Best Valid MRR: 0.20682, Cost: 28.84s
+[Epoch 87]: Training Loss: 0.0015026, Valid MRR: 0.20483, Best Valid MRR: 0.20682, Cost: 28.84s
+2024-12-01 21:52:55,785 - __main__ - INFO - [Epoch 88]: Training Loss: 0.0014897, Valid MRR: 0.20827, Best Valid MRR: 0.20827, Cost: 28.96s
+[Epoch 88]: Training Loss: 0.0014897, Valid MRR: 0.20827, Best Valid MRR: 0.20827, Cost: 28.96s
+2024-12-01 21:53:24,609 - __main__ - INFO - [Epoch 89]: Training Loss: 0.0014823, Valid MRR: 0.20702, Best Valid MRR: 0.20827, Cost: 28.82s
+[Epoch 89]: Training Loss: 0.0014823, Valid MRR: 0.20702, Best Valid MRR: 0.20827, Cost: 28.82s
+2024-12-01 21:53:53,444 - __main__ - INFO - [Epoch 90]: Training Loss: 0.0014872, Valid MRR: 0.20548, Best Valid MRR: 0.20827, Cost: 28.83s
+[Epoch 90]: Training Loss: 0.0014872, Valid MRR: 0.20548, Best Valid MRR: 0.20827, Cost: 28.83s
+2024-12-01 21:54:22,476 - __main__ - INFO - [Epoch 91]: Training Loss: 0.0014854, Valid MRR: 0.20832, Best Valid MRR: 0.20832, Cost: 29.03s
+[Epoch 91]: Training Loss: 0.0014854, Valid MRR: 0.20832, Best Valid MRR: 0.20832, Cost: 29.03s
+2024-12-01 21:54:51,330 - __main__ - INFO - [Epoch 92]: Training Loss: 0.0014849, Valid MRR: 0.20728, Best Valid MRR: 0.20832, Cost: 28.85s
+[Epoch 92]: Training Loss: 0.0014849, Valid MRR: 0.20728, Best Valid MRR: 0.20832, Cost: 28.85s
+2024-12-01 21:55:20,198 - __main__ - INFO - [Epoch 93]: Training Loss: 0.0014885, Valid MRR: 0.20655, Best Valid MRR: 0.20832, Cost: 28.87s
+[Epoch 93]: Training Loss: 0.0014885, Valid MRR: 0.20655, Best Valid MRR: 0.20832, Cost: 28.87s
+2024-12-01 21:55:49,021 - __main__ - INFO - [Epoch 94]: Training Loss: 0.0014788, Valid MRR: 0.20739, Best Valid MRR: 0.20832, Cost: 28.82s
+[Epoch 94]: Training Loss: 0.0014788, Valid MRR: 0.20739, Best Valid MRR: 0.20832, Cost: 28.82s
+2024-12-01 21:56:17,885 - __main__ - INFO - [Epoch 95]: Training Loss: 0.0014798, Valid MRR: 0.20589, Best Valid MRR: 0.20832, Cost: 28.86s
+[Epoch 95]: Training Loss: 0.0014798, Valid MRR: 0.20589, Best Valid MRR: 0.20832, Cost: 28.86s
+2024-12-01 21:56:46,819 - __main__ - INFO - [Epoch 96]: Training Loss: 0.0014787, Valid MRR: 0.20871, Best Valid MRR: 0.20871, Cost: 28.93s
+[Epoch 96]: Training Loss: 0.0014787, Valid MRR: 0.20871, Best Valid MRR: 0.20871, Cost: 28.93s
+2024-12-01 21:57:15,649 - __main__ - INFO - [Epoch 97]: Training Loss: 0.0014777, Valid MRR: 0.20793, Best Valid MRR: 0.20871, Cost: 28.83s
+[Epoch 97]: Training Loss: 0.0014777, Valid MRR: 0.20793, Best Valid MRR: 0.20871, Cost: 28.83s
+2024-12-01 21:57:44,496 - __main__ - INFO - [Epoch 98]: Training Loss: 0.0014752, Valid MRR: 0.2072, Best Valid MRR: 0.20871, Cost: 28.85s
+[Epoch 98]: Training Loss: 0.0014752, Valid MRR: 0.2072, Best Valid MRR: 0.20871, Cost: 28.85s
+2024-12-01 21:58:13,451 - __main__ - INFO - [Epoch 99]: Training Loss: 0.0014796, Valid MRR: 0.20698, Best Valid MRR: 0.20871, Cost: 28.95s
+[Epoch 99]: Training Loss: 0.0014796, Valid MRR: 0.20698, Best Valid MRR: 0.20871, Cost: 28.95s
+2024-12-01 21:58:42,508 - __main__ - INFO - [Epoch 100]: Training Loss: 0.0014837, Valid MRR: 0.20851, Best Valid MRR: 0.20871, Cost: 29.06s
+[Epoch 100]: Training Loss: 0.0014837, Valid MRR: 0.20851, Best Valid MRR: 0.20871, Cost: 29.06s
+2024-12-01 21:59:11,419 - __main__ - INFO - [Epoch 101]: Training Loss: 0.0014686, Valid MRR: 0.20674, Best Valid MRR: 0.20871, Cost: 28.91s
+[Epoch 101]: Training Loss: 0.0014686, Valid MRR: 0.20674, Best Valid MRR: 0.20871, Cost: 28.91s
+2024-12-01 21:59:40,305 - __main__ - INFO - [Epoch 102]: Training Loss: 0.0014666, Valid MRR: 0.20837, Best Valid MRR: 0.20871, Cost: 28.89s
+[Epoch 102]: Training Loss: 0.0014666, Valid MRR: 0.20837, Best Valid MRR: 0.20871, Cost: 28.89s
+2024-12-01 22:00:09,150 - __main__ - INFO - [Epoch 103]: Training Loss: 0.0014674, Valid MRR: 0.20778, Best Valid MRR: 0.20871, Cost: 28.84s
+[Epoch 103]: Training Loss: 0.0014674, Valid MRR: 0.20778, Best Valid MRR: 0.20871, Cost: 28.84s
+2024-12-01 22:00:38,047 - __main__ - INFO - [Epoch 104]: Training Loss: 0.001466, Valid MRR: 0.2077, Best Valid MRR: 0.20871, Cost: 28.90s
+[Epoch 104]: Training Loss: 0.001466, Valid MRR: 0.2077, Best Valid MRR: 0.20871, Cost: 28.90s
+2024-12-01 22:01:06,890 - __main__ - INFO - [Epoch 105]: Training Loss: 0.0014633, Valid MRR: 0.20712, Best Valid MRR: 0.20871, Cost: 28.84s
+[Epoch 105]: Training Loss: 0.0014633, Valid MRR: 0.20712, Best Valid MRR: 0.20871, Cost: 28.84s
+2024-12-01 22:01:35,660 - __main__ - INFO - [Epoch 106]: Training Loss: 0.0014693, Valid MRR: 0.20808, Best Valid MRR: 0.20871, Cost: 28.77s
+[Epoch 106]: Training Loss: 0.0014693, Valid MRR: 0.20808, Best Valid MRR: 0.20871, Cost: 28.77s
+2024-12-01 22:02:04,529 - __main__ - INFO - [Epoch 107]: Training Loss: 0.0014714, Valid MRR: 0.20685, Best Valid MRR: 0.20871, Cost: 28.87s
+[Epoch 107]: Training Loss: 0.0014714, Valid MRR: 0.20685, Best Valid MRR: 0.20871, Cost: 28.87s
+2024-12-01 22:02:33,229 - __main__ - INFO - [Epoch 108]: Training Loss: 0.0014711, Valid MRR: 0.20768, Best Valid MRR: 0.20871, Cost: 28.70s
+[Epoch 108]: Training Loss: 0.0014711, Valid MRR: 0.20768, Best Valid MRR: 0.20871, Cost: 28.70s
+2024-12-01 22:03:02,189 - __main__ - INFO - [Epoch 109]: Training Loss: 0.0014733, Valid MRR: 0.20847, Best Valid MRR: 0.20871, Cost: 28.96s
+[Epoch 109]: Training Loss: 0.0014733, Valid MRR: 0.20847, Best Valid MRR: 0.20871, Cost: 28.96s
+2024-12-01 22:03:31,180 - __main__ - INFO - [Epoch 110]: Training Loss: 0.0014685, Valid MRR: 0.20909, Best Valid MRR: 0.20909, Cost: 28.99s
+[Epoch 110]: Training Loss: 0.0014685, Valid MRR: 0.20909, Best Valid MRR: 0.20909, Cost: 28.99s
+2024-12-01 22:04:00,352 - __main__ - INFO - [Epoch 111]: Training Loss: 0.0014599, Valid MRR: 0.20959, Best Valid MRR: 0.20959, Cost: 29.17s
+[Epoch 111]: Training Loss: 0.0014599, Valid MRR: 0.20959, Best Valid MRR: 0.20959, Cost: 29.17s
+2024-12-01 22:04:29,307 - __main__ - INFO - [Epoch 112]: Training Loss: 0.0014638, Valid MRR: 0.20787, Best Valid MRR: 0.20959, Cost: 28.96s
+[Epoch 112]: Training Loss: 0.0014638, Valid MRR: 0.20787, Best Valid MRR: 0.20959, Cost: 28.96s
+2024-12-01 22:04:58,225 - __main__ - INFO - [Epoch 113]: Training Loss: 0.0014576, Valid MRR: 0.20887, Best Valid MRR: 0.20959, Cost: 28.92s
+[Epoch 113]: Training Loss: 0.0014576, Valid MRR: 0.20887, Best Valid MRR: 0.20959, Cost: 28.92s
+2024-12-01 22:05:27,112 - __main__ - INFO - [Epoch 114]: Training Loss: 0.001458, Valid MRR: 0.20837, Best Valid MRR: 0.20959, Cost: 28.89s
+[Epoch 114]: Training Loss: 0.001458, Valid MRR: 0.20837, Best Valid MRR: 0.20959, Cost: 28.89s
+2024-12-01 22:05:55,870 - __main__ - INFO - [Epoch 115]: Training Loss: 0.001459, Valid MRR: 0.20917, Best Valid MRR: 0.20959, Cost: 28.76s
+[Epoch 115]: Training Loss: 0.001459, Valid MRR: 0.20917, Best Valid MRR: 0.20959, Cost: 28.76s
+2024-12-01 22:06:24,728 - __main__ - INFO - [Epoch 116]: Training Loss: 0.0014565, Valid MRR: 0.2067, Best Valid MRR: 0.20959, Cost: 28.86s
+[Epoch 116]: Training Loss: 0.0014565, Valid MRR: 0.2067, Best Valid MRR: 0.20959, Cost: 28.86s
+2024-12-01 22:06:53,616 - __main__ - INFO - [Epoch 117]: Training Loss: 0.0014818, Valid MRR: 0.20505, Best Valid MRR: 0.20959, Cost: 28.89s
+[Epoch 117]: Training Loss: 0.0014818, Valid MRR: 0.20505, Best Valid MRR: 0.20959, Cost: 28.89s
+2024-12-01 22:07:22,407 - __main__ - INFO - [Epoch 118]: Training Loss: 0.0014806, Valid MRR: 0.20769, Best Valid MRR: 0.20959, Cost: 28.79s
+[Epoch 118]: Training Loss: 0.0014806, Valid MRR: 0.20769, Best Valid MRR: 0.20959, Cost: 28.79s
+2024-12-01 22:07:51,434 - __main__ - INFO - [Epoch 119]: Training Loss: 0.001461, Valid MRR: 0.20848, Best Valid MRR: 0.20959, Cost: 29.03s
+[Epoch 119]: Training Loss: 0.001461, Valid MRR: 0.20848, Best Valid MRR: 0.20959, Cost: 29.03s
+2024-12-01 22:08:20,305 - __main__ - INFO - [Epoch 120]: Training Loss: 0.0014561, Valid MRR: 0.20937, Best Valid MRR: 0.20959, Cost: 28.87s
+[Epoch 120]: Training Loss: 0.0014561, Valid MRR: 0.20937, Best Valid MRR: 0.20959, Cost: 28.87s
+2024-12-01 22:08:49,201 - __main__ - INFO - [Epoch 121]: Training Loss: 0.0014592, Valid MRR: 0.20682, Best Valid MRR: 0.20959, Cost: 28.90s
+[Epoch 121]: Training Loss: 0.0014592, Valid MRR: 0.20682, Best Valid MRR: 0.20959, Cost: 28.90s
+2024-12-01 22:09:17,978 - __main__ - INFO - [Epoch 122]: Training Loss: 0.0014561, Valid MRR: 0.20924, Best Valid MRR: 0.20959, Cost: 28.78s
+[Epoch 122]: Training Loss: 0.0014561, Valid MRR: 0.20924, Best Valid MRR: 0.20959, Cost: 28.78s
+2024-12-01 22:09:46,853 - __main__ - INFO - [Epoch 123]: Training Loss: 0.0014506, Valid MRR: 0.20946, Best Valid MRR: 0.20959, Cost: 28.87s
+[Epoch 123]: Training Loss: 0.0014506, Valid MRR: 0.20946, Best Valid MRR: 0.20959, Cost: 28.87s
+2024-12-01 22:10:15,673 - __main__ - INFO - [Epoch 124]: Training Loss: 0.001451, Valid MRR: 0.20882, Best Valid MRR: 0.20959, Cost: 28.82s
+[Epoch 124]: Training Loss: 0.001451, Valid MRR: 0.20882, Best Valid MRR: 0.20959, Cost: 28.82s
+2024-12-01 22:10:44,486 - __main__ - INFO - [Epoch 125]: Training Loss: 0.0014656, Valid MRR: 0.20827, Best Valid MRR: 0.20959, Cost: 28.81s
+[Epoch 125]: Training Loss: 0.0014656, Valid MRR: 0.20827, Best Valid MRR: 0.20959, Cost: 28.81s
+2024-12-01 22:11:13,422 - __main__ - INFO - [Epoch 126]: Training Loss: 0.0014532, Valid MRR: 0.20829, Best Valid MRR: 0.20959, Cost: 28.94s
+[Epoch 126]: Training Loss: 0.0014532, Valid MRR: 0.20829, Best Valid MRR: 0.20959, Cost: 28.94s
+2024-12-01 22:11:42,275 - __main__ - INFO - [Epoch 127]: Training Loss: 0.0014502, Valid MRR: 0.20855, Best Valid MRR: 0.20959, Cost: 28.85s
+[Epoch 127]: Training Loss: 0.0014502, Valid MRR: 0.20855, Best Valid MRR: 0.20959, Cost: 28.85s
+2024-12-01 22:12:11,151 - __main__ - INFO - [Epoch 128]: Training Loss: 0.0014521, Valid MRR: 0.20866, Best Valid MRR: 0.20959, Cost: 28.88s
+[Epoch 128]: Training Loss: 0.0014521, Valid MRR: 0.20866, Best Valid MRR: 0.20959, Cost: 28.88s
+2024-12-01 22:12:39,903 - __main__ - INFO - [Epoch 129]: Training Loss: 0.001456, Valid MRR: 0.20417, Best Valid MRR: 0.20959, Cost: 28.75s
+[Epoch 129]: Training Loss: 0.001456, Valid MRR: 0.20417, Best Valid MRR: 0.20959, Cost: 28.75s
+2024-12-01 22:13:08,750 - __main__ - INFO - [Epoch 130]: Training Loss: 0.0014554, Valid MRR: 0.20629, Best Valid MRR: 0.20959, Cost: 28.85s
+[Epoch 130]: Training Loss: 0.0014554, Valid MRR: 0.20629, Best Valid MRR: 0.20959, Cost: 28.85s
+2024-12-01 22:13:37,437 - __main__ - INFO - [Epoch 131]: Training Loss: 0.0014484, Valid MRR: 0.20772, Best Valid MRR: 0.20959, Cost: 28.69s
+[Epoch 131]: Training Loss: 0.0014484, Valid MRR: 0.20772, Best Valid MRR: 0.20959, Cost: 28.69s
+2024-12-01 22:14:06,385 - __main__ - INFO - [Epoch 132]: Training Loss: 0.0014441, Valid MRR: 0.20767, Best Valid MRR: 0.20959, Cost: 28.95s
+[Epoch 132]: Training Loss: 0.0014441, Valid MRR: 0.20767, Best Valid MRR: 0.20959, Cost: 28.95s
+2024-12-01 22:14:35,287 - __main__ - INFO - [Epoch 133]: Training Loss: 0.0014453, Valid MRR: 0.20829, Best Valid MRR: 0.20959, Cost: 28.90s
+[Epoch 133]: Training Loss: 0.0014453, Valid MRR: 0.20829, Best Valid MRR: 0.20959, Cost: 28.90s
+2024-12-01 22:15:04,060 - __main__ - INFO - [Epoch 134]: Training Loss: 0.0014497, Valid MRR: 0.20759, Best Valid MRR: 0.20959, Cost: 28.77s
+[Epoch 134]: Training Loss: 0.0014497, Valid MRR: 0.20759, Best Valid MRR: 0.20959, Cost: 28.77s
+2024-12-01 22:15:32,913 - __main__ - INFO - [Epoch 135]: Training Loss: 0.0014479, Valid MRR: 0.20828, Best Valid MRR: 0.20959, Cost: 28.85s
+[Epoch 135]: Training Loss: 0.0014479, Valid MRR: 0.20828, Best Valid MRR: 0.20959, Cost: 28.85s
+2024-12-01 22:16:01,771 - __main__ - INFO - [Epoch 136]: Training Loss: 0.0014389, Valid MRR: 0.20903, Best Valid MRR: 0.20959, Cost: 28.86s
+[Epoch 136]: Training Loss: 0.0014389, Valid MRR: 0.20903, Best Valid MRR: 0.20959, Cost: 28.86s
+2024-12-01 22:16:30,592 - __main__ - INFO - [Epoch 137]: Training Loss: 0.0014395, Valid MRR: 0.20934, Best Valid MRR: 0.20959, Cost: 28.82s
+[Epoch 137]: Training Loss: 0.0014395, Valid MRR: 0.20934, Best Valid MRR: 0.20959, Cost: 28.82s
+2024-12-01 22:16:59,554 - __main__ - INFO - [Epoch 138]: Training Loss: 0.0014476, Valid MRR: 0.20971, Best Valid MRR: 0.20971, Cost: 28.96s
+[Epoch 138]: Training Loss: 0.0014476, Valid MRR: 0.20971, Best Valid MRR: 0.20971, Cost: 28.96s
+2024-12-01 22:17:28,388 - __main__ - INFO - [Epoch 139]: Training Loss: 0.0014468, Valid MRR: 0.20854, Best Valid MRR: 0.20971, Cost: 28.83s
+[Epoch 139]: Training Loss: 0.0014468, Valid MRR: 0.20854, Best Valid MRR: 0.20971, Cost: 28.83s
+2024-12-01 22:17:57,268 - __main__ - INFO - [Epoch 140]: Training Loss: 0.0014472, Valid MRR: 0.20884, Best Valid MRR: 0.20971, Cost: 28.88s
+[Epoch 140]: Training Loss: 0.0014472, Valid MRR: 0.20884, Best Valid MRR: 0.20971, Cost: 28.88s
+2024-12-01 22:18:26,066 - __main__ - INFO - [Epoch 141]: Training Loss: 0.0014442, Valid MRR: 0.20763, Best Valid MRR: 0.20971, Cost: 28.80s
+[Epoch 141]: Training Loss: 0.0014442, Valid MRR: 0.20763, Best Valid MRR: 0.20971, Cost: 28.80s
+2024-12-01 22:18:54,856 - __main__ - INFO - [Epoch 142]: Training Loss: 0.0014443, Valid MRR: 0.20824, Best Valid MRR: 0.20971, Cost: 28.79s
+[Epoch 142]: Training Loss: 0.0014443, Valid MRR: 0.20824, Best Valid MRR: 0.20971, Cost: 28.79s
+2024-12-01 22:19:23,660 - __main__ - INFO - [Epoch 143]: Training Loss: 0.0014381, Valid MRR: 0.20508, Best Valid MRR: 0.20971, Cost: 28.80s
+[Epoch 143]: Training Loss: 0.0014381, Valid MRR: 0.20508, Best Valid MRR: 0.20971, Cost: 28.80s
+2024-12-01 22:19:52,502 - __main__ - INFO - [Epoch 144]: Training Loss: 0.0014388, Valid MRR: 0.20881, Best Valid MRR: 0.20971, Cost: 28.84s
+[Epoch 144]: Training Loss: 0.0014388, Valid MRR: 0.20881, Best Valid MRR: 0.20971, Cost: 28.84s
+2024-12-01 22:20:21,472 - __main__ - INFO - [Epoch 145]: Training Loss: 0.0014422, Valid MRR: 0.20861, Best Valid MRR: 0.20971, Cost: 28.97s
+[Epoch 145]: Training Loss: 0.0014422, Valid MRR: 0.20861, Best Valid MRR: 0.20971, Cost: 28.97s
+2024-12-01 22:20:50,271 - __main__ - INFO - [Epoch 146]: Training Loss: 0.0014351, Valid MRR: 0.20813, Best Valid MRR: 0.20971, Cost: 28.80s
+[Epoch 146]: Training Loss: 0.0014351, Valid MRR: 0.20813, Best Valid MRR: 0.20971, Cost: 28.80s
+2024-12-01 22:21:19,111 - __main__ - INFO - [Epoch 147]: Training Loss: 0.0014355, Valid MRR: 0.20853, Best Valid MRR: 0.20971, Cost: 28.84s
+[Epoch 147]: Training Loss: 0.0014355, Valid MRR: 0.20853, Best Valid MRR: 0.20971, Cost: 28.84s
+2024-12-01 22:21:47,837 - __main__ - INFO - [Epoch 148]: Training Loss: 0.0014316, Valid MRR: 0.20651, Best Valid MRR: 0.20971, Cost: 28.73s
+[Epoch 148]: Training Loss: 0.0014316, Valid MRR: 0.20651, Best Valid MRR: 0.20971, Cost: 28.73s
+2024-12-01 22:22:16,899 - __main__ - INFO - [Epoch 149]: Training Loss: 0.0014271, Valid MRR: 0.2094, Best Valid MRR: 0.20971, Cost: 29.06s
+[Epoch 149]: Training Loss: 0.0014271, Valid MRR: 0.2094, Best Valid MRR: 0.20971, Cost: 29.06s
+2024-12-01 22:22:45,727 - __main__ - INFO - [Epoch 150]: Training Loss: 0.0014358, Valid MRR: 0.20871, Best Valid MRR: 0.20971, Cost: 28.83s
+[Epoch 150]: Training Loss: 0.0014358, Valid MRR: 0.20871, Best Valid MRR: 0.20971, Cost: 28.83s
+2024-12-01 22:23:14,643 - __main__ - INFO - [Epoch 151]: Training Loss: 0.0014365, Valid MRR: 0.20771, Best Valid MRR: 0.20971, Cost: 28.92s
+[Epoch 151]: Training Loss: 0.0014365, Valid MRR: 0.20771, Best Valid MRR: 0.20971, Cost: 28.92s
+2024-12-01 22:23:43,510 - __main__ - INFO - [Epoch 152]: Training Loss: 0.0014356, Valid MRR: 0.20809, Best Valid MRR: 0.20971, Cost: 28.87s
+[Epoch 152]: Training Loss: 0.0014356, Valid MRR: 0.20809, Best Valid MRR: 0.20971, Cost: 28.87s
+2024-12-01 22:24:12,250 - __main__ - INFO - [Epoch 153]: Training Loss: 0.0014352, Valid MRR: 0.2092, Best Valid MRR: 0.20971, Cost: 28.74s
+[Epoch 153]: Training Loss: 0.0014352, Valid MRR: 0.2092, Best Valid MRR: 0.20971, Cost: 28.74s
+2024-12-01 22:24:41,108 - __main__ - INFO - [Epoch 154]: Training Loss: 0.0014355, Valid MRR: 0.20812, Best Valid MRR: 0.20971, Cost: 28.86s
+[Epoch 154]: Training Loss: 0.0014355, Valid MRR: 0.20812, Best Valid MRR: 0.20971, Cost: 28.86s
+2024-12-01 22:25:09,939 - __main__ - INFO - [Epoch 155]: Training Loss: 0.0014338, Valid MRR: 0.20928, Best Valid MRR: 0.20971, Cost: 28.83s
+[Epoch 155]: Training Loss: 0.0014338, Valid MRR: 0.20928, Best Valid MRR: 0.20971, Cost: 28.83s
+2024-12-01 22:25:38,774 - __main__ - INFO - [Epoch 156]: Training Loss: 0.0014348, Valid MRR: 0.20854, Best Valid MRR: 0.20971, Cost: 28.83s
+[Epoch 156]: Training Loss: 0.0014348, Valid MRR: 0.20854, Best Valid MRR: 0.20971, Cost: 28.83s
+2024-12-01 22:26:07,611 - __main__ - INFO - [Epoch 157]: Training Loss: 0.0014344, Valid MRR: 0.20762, Best Valid MRR: 0.20971, Cost: 28.84s
+[Epoch 157]: Training Loss: 0.0014344, Valid MRR: 0.20762, Best Valid MRR: 0.20971, Cost: 28.84s
+2024-12-01 22:26:36,372 - __main__ - INFO - [Epoch 158]: Training Loss: 0.0014334, Valid MRR: 0.20929, Best Valid MRR: 0.20971, Cost: 28.76s
+[Epoch 158]: Training Loss: 0.0014334, Valid MRR: 0.20929, Best Valid MRR: 0.20971, Cost: 28.76s
+2024-12-01 22:27:04,971 - __main__ - INFO - [Epoch 159]: Training Loss: 0.0014316, Valid MRR: 0.20772, Best Valid MRR: 0.20971, Cost: 28.60s
+[Epoch 159]: Training Loss: 0.0014316, Valid MRR: 0.20772, Best Valid MRR: 0.20971, Cost: 28.60s
+2024-12-01 22:27:33,800 - __main__ - INFO - [Epoch 160]: Training Loss: 0.001428, Valid MRR: 0.20963, Best Valid MRR: 0.20971, Cost: 28.83s
+[Epoch 160]: Training Loss: 0.001428, Valid MRR: 0.20963, Best Valid MRR: 0.20971, Cost: 28.83s
+2024-12-01 22:28:02,811 - __main__ - INFO - [Epoch 161]: Training Loss: 0.0014334, Valid MRR: 0.2089, Best Valid MRR: 0.20971, Cost: 29.01s
+[Epoch 161]: Training Loss: 0.0014334, Valid MRR: 0.2089, Best Valid MRR: 0.20971, Cost: 29.01s
+2024-12-01 22:28:31,754 - __main__ - INFO - [Epoch 162]: Training Loss: 0.0014309, Valid MRR: 0.20983, Best Valid MRR: 0.20983, Cost: 28.94s
+[Epoch 162]: Training Loss: 0.0014309, Valid MRR: 0.20983, Best Valid MRR: 0.20983, Cost: 28.94s
+2024-12-01 22:29:00,847 - __main__ - INFO - [Epoch 163]: Training Loss: 0.0014255, Valid MRR: 0.20807, Best Valid MRR: 0.20983, Cost: 29.09s
+[Epoch 163]: Training Loss: 0.0014255, Valid MRR: 0.20807, Best Valid MRR: 0.20983, Cost: 29.09s
+2024-12-01 22:29:29,797 - __main__ - INFO - [Epoch 164]: Training Loss: 0.001427, Valid MRR: 0.20859, Best Valid MRR: 0.20983, Cost: 28.95s
+[Epoch 164]: Training Loss: 0.001427, Valid MRR: 0.20859, Best Valid MRR: 0.20983, Cost: 28.95s
+2024-12-01 22:29:58,734 - __main__ - INFO - [Epoch 165]: Training Loss: 0.0014328, Valid MRR: 0.20857, Best Valid MRR: 0.20983, Cost: 28.94s
+[Epoch 165]: Training Loss: 0.0014328, Valid MRR: 0.20857, Best Valid MRR: 0.20983, Cost: 28.94s
+2024-12-01 22:30:27,680 - __main__ - INFO - [Epoch 166]: Training Loss: 0.0014288, Valid MRR: 0.20773, Best Valid MRR: 0.20983, Cost: 28.95s
+[Epoch 166]: Training Loss: 0.0014288, Valid MRR: 0.20773, Best Valid MRR: 0.20983, Cost: 28.94s
+2024-12-01 22:30:56,537 - __main__ - INFO - [Epoch 167]: Training Loss: 0.0014264, Valid MRR: 0.20843, Best Valid MRR: 0.20983, Cost: 28.86s
+[Epoch 167]: Training Loss: 0.0014264, Valid MRR: 0.20843, Best Valid MRR: 0.20983, Cost: 28.86s
+2024-12-01 22:31:25,306 - __main__ - INFO - [Epoch 168]: Training Loss: 0.0014231, Valid MRR: 0.20812, Best Valid MRR: 0.20983, Cost: 28.77s
+[Epoch 168]: Training Loss: 0.0014231, Valid MRR: 0.20812, Best Valid MRR: 0.20983, Cost: 28.77s
+2024-12-01 22:31:54,185 - __main__ - INFO - [Epoch 169]: Training Loss: 0.0014247, Valid MRR: 0.20904, Best Valid MRR: 0.20983, Cost: 28.88s
+[Epoch 169]: Training Loss: 0.0014247, Valid MRR: 0.20904, Best Valid MRR: 0.20983, Cost: 28.88s
+2024-12-01 22:32:23,246 - __main__ - INFO - [Epoch 170]: Training Loss: 0.0014276, Valid MRR: 0.20645, Best Valid MRR: 0.20983, Cost: 29.06s
+[Epoch 170]: Training Loss: 0.0014276, Valid MRR: 0.20645, Best Valid MRR: 0.20983, Cost: 29.06s
+2024-12-01 22:32:52,144 - __main__ - INFO - [Epoch 171]: Training Loss: 0.0014259, Valid MRR: 0.20865, Best Valid MRR: 0.20983, Cost: 28.90s
+[Epoch 171]: Training Loss: 0.0014259, Valid MRR: 0.20865, Best Valid MRR: 0.20983, Cost: 28.90s
+2024-12-01 22:33:21,026 - __main__ - INFO - [Epoch 172]: Training Loss: 0.0014249, Valid MRR: 0.2079, Best Valid MRR: 0.20983, Cost: 28.88s
+[Epoch 172]: Training Loss: 0.0014249, Valid MRR: 0.2079, Best Valid MRR: 0.20983, Cost: 28.88s
+2024-12-01 22:33:49,717 - __main__ - INFO - [Epoch 173]: Training Loss: 0.0014273, Valid MRR: 0.20813, Best Valid MRR: 0.20983, Cost: 28.69s
+[Epoch 173]: Training Loss: 0.0014273, Valid MRR: 0.20813, Best Valid MRR: 0.20983, Cost: 28.69s
+2024-12-01 22:34:18,523 - __main__ - INFO - [Epoch 174]: Training Loss: 0.0014201, Valid MRR: 0.20916, Best Valid MRR: 0.20983, Cost: 28.81s
+[Epoch 174]: Training Loss: 0.0014201, Valid MRR: 0.20916, Best Valid MRR: 0.20983, Cost: 28.81s
+2024-12-01 22:34:47,407 - __main__ - INFO - [Epoch 175]: Training Loss: 0.0014234, Valid MRR: 0.20964, Best Valid MRR: 0.20983, Cost: 28.88s
+[Epoch 175]: Training Loss: 0.0014234, Valid MRR: 0.20964, Best Valid MRR: 0.20983, Cost: 28.88s
+2024-12-01 22:35:16,266 - __main__ - INFO - [Epoch 176]: Training Loss: 0.0014199, Valid MRR: 0.20891, Best Valid MRR: 0.20983, Cost: 28.86s
+[Epoch 176]: Training Loss: 0.0014199, Valid MRR: 0.20891, Best Valid MRR: 0.20983, Cost: 28.86s
+2024-12-01 22:35:45,081 - __main__ - INFO - [Epoch 177]: Training Loss: 0.0014215, Valid MRR: 0.20933, Best Valid MRR: 0.20983, Cost: 28.81s
+[Epoch 177]: Training Loss: 0.0014215, Valid MRR: 0.20933, Best Valid MRR: 0.20983, Cost: 28.81s
+2024-12-01 22:36:13,913 - __main__ - INFO - [Epoch 178]: Training Loss: 0.0014224, Valid MRR: 0.2091, Best Valid MRR: 0.20983, Cost: 28.83s
+[Epoch 178]: Training Loss: 0.0014224, Valid MRR: 0.2091, Best Valid MRR: 0.20983, Cost: 28.83s
+2024-12-01 22:36:42,824 - __main__ - INFO - [Epoch 179]: Training Loss: 0.0014201, Valid MRR: 0.20904, Best Valid MRR: 0.20983, Cost: 28.91s
+[Epoch 179]: Training Loss: 0.0014201, Valid MRR: 0.20904, Best Valid MRR: 0.20983, Cost: 28.91s
+2024-12-01 22:37:11,451 - __main__ - INFO - [Epoch 180]: Training Loss: 0.00142, Valid MRR: 0.209, Best Valid MRR: 0.20983, Cost: 28.63s
+[Epoch 180]: Training Loss: 0.00142, Valid MRR: 0.209, Best Valid MRR: 0.20983, Cost: 28.63s
+2024-12-01 22:37:40,356 - __main__ - INFO - [Epoch 181]: Training Loss: 0.0014162, Valid MRR: 0.20847, Best Valid MRR: 0.20983, Cost: 28.90s
+[Epoch 181]: Training Loss: 0.0014162, Valid MRR: 0.20847, Best Valid MRR: 0.20983, Cost: 28.90s
+2024-12-01 22:38:09,278 - __main__ - INFO - [Epoch 182]: Training Loss: 0.0014139, Valid MRR: 0.20844, Best Valid MRR: 0.20983, Cost: 28.92s
+[Epoch 182]: Training Loss: 0.0014139, Valid MRR: 0.20844, Best Valid MRR: 0.20983, Cost: 28.92s
+2024-12-01 22:38:37,995 - __main__ - INFO - [Epoch 183]: Training Loss: 0.0014162, Valid MRR: 0.20856, Best Valid MRR: 0.20983, Cost: 28.72s
+[Epoch 183]: Training Loss: 0.0014162, Valid MRR: 0.20856, Best Valid MRR: 0.20983, Cost: 28.72s
+2024-12-01 22:39:06,871 - __main__ - INFO - [Epoch 184]: Training Loss: 0.001416, Valid MRR: 0.20738, Best Valid MRR: 0.20983, Cost: 28.88s
+[Epoch 184]: Training Loss: 0.001416, Valid MRR: 0.20738, Best Valid MRR: 0.20983, Cost: 28.88s
+2024-12-01 22:39:35,778 - __main__ - INFO - [Epoch 185]: Training Loss: 0.0014195, Valid MRR: 0.20717, Best Valid MRR: 0.20983, Cost: 28.91s
+[Epoch 185]: Training Loss: 0.0014195, Valid MRR: 0.20717, Best Valid MRR: 0.20983, Cost: 28.91s
+2024-12-01 22:40:04,565 - __main__ - INFO - [Epoch 186]: Training Loss: 0.0014195, Valid MRR: 0.20851, Best Valid MRR: 0.20983, Cost: 28.79s
+[Epoch 186]: Training Loss: 0.0014195, Valid MRR: 0.20851, Best Valid MRR: 0.20983, Cost: 28.79s
+2024-12-01 22:40:33,293 - __main__ - INFO - [Epoch 187]: Training Loss: 0.0014142, Valid MRR: 0.20885, Best Valid MRR: 0.20983, Cost: 28.73s
+[Epoch 187]: Training Loss: 0.0014142, Valid MRR: 0.20885, Best Valid MRR: 0.20983, Cost: 28.73s
+2024-12-01 22:41:02,058 - __main__ - INFO - [Epoch 188]: Training Loss: 0.0014107, Valid MRR: 0.20886, Best Valid MRR: 0.20983, Cost: 28.76s
+[Epoch 188]: Training Loss: 0.0014107, Valid MRR: 0.20886, Best Valid MRR: 0.20983, Cost: 28.76s
+2024-12-01 22:41:30,932 - __main__ - INFO - [Epoch 189]: Training Loss: 0.0014125, Valid MRR: 0.20829, Best Valid MRR: 0.20983, Cost: 28.87s
+[Epoch 189]: Training Loss: 0.0014125, Valid MRR: 0.20829, Best Valid MRR: 0.20983, Cost: 28.87s
+2024-12-01 22:41:59,633 - __main__ - INFO - [Epoch 190]: Training Loss: 0.0014092, Valid MRR: 0.20818, Best Valid MRR: 0.20983, Cost: 28.70s
+[Epoch 190]: Training Loss: 0.0014092, Valid MRR: 0.20818, Best Valid MRR: 0.20983, Cost: 28.70s
+2024-12-01 22:42:28,635 - __main__ - INFO - [Epoch 191]: Training Loss: 0.0014225, Valid MRR: 0.20786, Best Valid MRR: 0.20983, Cost: 29.00s
+[Epoch 191]: Training Loss: 0.0014225, Valid MRR: 0.20786, Best Valid MRR: 0.20983, Cost: 29.00s
+2024-12-01 22:42:57,486 - __main__ - INFO - [Epoch 192]: Training Loss: 0.0014165, Valid MRR: 0.20899, Best Valid MRR: 0.20983, Cost: 28.85s
+[Epoch 192]: Training Loss: 0.0014165, Valid MRR: 0.20899, Best Valid MRR: 0.20983, Cost: 28.85s
+2024-12-01 22:43:26,309 - __main__ - INFO - [Epoch 193]: Training Loss: 0.0014232, Valid MRR: 0.208, Best Valid MRR: 0.20983, Cost: 28.82s
+[Epoch 193]: Training Loss: 0.0014232, Valid MRR: 0.208, Best Valid MRR: 0.20983, Cost: 28.82s
+2024-12-01 22:43:55,263 - __main__ - INFO - [Epoch 194]: Training Loss: 0.001418, Valid MRR: 0.20799, Best Valid MRR: 0.20983, Cost: 28.95s
+[Epoch 194]: Training Loss: 0.001418, Valid MRR: 0.20799, Best Valid MRR: 0.20983, Cost: 28.95s
+2024-12-01 22:44:24,163 - __main__ - INFO - [Epoch 195]: Training Loss: 0.0014138, Valid MRR: 0.20872, Best Valid MRR: 0.20983, Cost: 28.90s
+[Epoch 195]: Training Loss: 0.0014138, Valid MRR: 0.20872, Best Valid MRR: 0.20983, Cost: 28.90s
+2024-12-01 22:44:53,058 - __main__ - INFO - [Epoch 196]: Training Loss: 0.0014104, Valid MRR: 0.20868, Best Valid MRR: 0.20983, Cost: 28.89s
+[Epoch 196]: Training Loss: 0.0014104, Valid MRR: 0.20868, Best Valid MRR: 0.20983, Cost: 28.89s
+2024-12-01 22:45:21,751 - __main__ - INFO - [Epoch 197]: Training Loss: 0.0014148, Valid MRR: 0.20779, Best Valid MRR: 0.20983, Cost: 28.69s
+[Epoch 197]: Training Loss: 0.0014148, Valid MRR: 0.20779, Best Valid MRR: 0.20983, Cost: 28.69s
+2024-12-01 22:45:50,515 - __main__ - INFO - [Epoch 198]: Training Loss: 0.0014136, Valid MRR: 0.20971, Best Valid MRR: 0.20983, Cost: 28.76s
+[Epoch 198]: Training Loss: 0.0014136, Valid MRR: 0.20971, Best Valid MRR: 0.20983, Cost: 28.76s
+2024-12-01 22:46:19,372 - __main__ - INFO - [Epoch 199]: Training Loss: 0.0014134, Valid MRR: 0.20882, Best Valid MRR: 0.20983, Cost: 28.86s
+2024-12-01 22:46:19,373 - __main__ - INFO - {'name': 'compgcn-distmult-multrepro', 'dataset': 'FB15k-237', 'score_func': 'distmult', 'opn': 'mult', 'batch_size': 256, 'gpu': 0, 'max_epochs': 200, 'l2': 0.0, 'lr': 0.001, 'lbl_smooth': 0.1, 'num_workers': 8, 'seed': 12345, 'restore': False, 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 100, 'embed_dim': 200, 'n_layer': 2, 'gcn_drop': 0.1, 'hid_drop': 0.3, 'conve_hid_drop': 0.3, 'feat_drop': 0.2, 'input_drop': 0.2, 'k_w': 20, 'k_h': 10, 'num_filt': 200, 'ker_sz': 7, 'gamma': 9.0, 'rat': False, 'wni': False, 'wsi': False, 'ss': -1, 'nobn': False, 'noltr': False, 'encoder': 'compgcn', 'x_ops': '', 'r_ops': ''}
+/home/rsingha4/GCN4KGC/RGCN+CompGCN+LTE/run.py:209: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(path)
+2024-12-01 22:46:19,409 - __main__ - INFO - Loading best model in 162 epoch, Evaluating on Test data
+[Epoch 199]: Training Loss: 0.0014134, Valid MRR: 0.20882, Best Valid MRR: 0.20983, Cost: 28.86s
+2024-12-01 22:46:25,184 - __main__ - INFO - MRR: Tail 0.2954, Head 0.11686, Avg 0.20613
+2024-12-01 22:46:25,184 - __main__ - INFO - MR: Tail 369.04, Head 589.6, Avg 479.32
+2024-12-01 22:46:25,184 - __main__ - INFO - hits@1 = 0.134
+2024-12-01 22:46:25,185 - __main__ - INFO - hits@3 = 0.22051
+2024-12-01 22:46:25,185 - __main__ - INFO - hits@10 = 0.35579
+2024-12-01 22:46:25,185 - __main__ - INFO - time =5.774090051651001
